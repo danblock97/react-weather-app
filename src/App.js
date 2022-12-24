@@ -70,11 +70,12 @@ function App() {
         )}
       </div>
       <ToastContainer 
-      position="top-right"
+      position="bottom-center"
       hideProgressBar={false}
       autoClose={5000} 
       theme="colored" 
-      newestOnTop={true} />
+      newestOnTop={true}
+      limit={2} />
     </div>
   );
 }
